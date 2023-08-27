@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name HTML_3</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div>
+    <img src="sticky-header.jpg" alt="Header Image">
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="container">
+    <aside class="sidebar-right">
+      <ul>
+        <li><a href="#">Menu Item 1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+        <li><a href="#">Menu Item 4</a></li>
+        <li><a href="#">Menu Item 5</a></li>
+        <li><a href="#">Menu Item 6</a></li>
+      </ul>
+    </aside>
+    
+    <section class="main-content">
+      <h1>Welcome to My Page</h1>
+      <p>This is a sample HTML page with various elements.</p>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <a href="#">Click me</a>
+      <button class="read-more">Read more</button>
+    </section>
+    
+    <section class="section-left">
+      <header>
+        <h2>Section Header</h2>
+      </header>
+      <p>This is the content of the first section on the left.</p>
+      <button class="read-more">Read more</button>
+    </section>
+    
+    <section class="section-bottom">
+      <p>This is the content of the second section on the left.</p>
+      <button class="read-more">Read more</button>
+    </section>
+    
+    <section class="section-bottom">
+      <p>This is the content of the third section on the left.</p>
+      <button class="read-more">Read more</button>
+    </section>
+  </main>
+  
+  <footer>
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      
+      <label>Message:</label>
+      <textarea name="message" required></textarea><br>
+      
+      <label>Feedback type:</label>
+      <input type="radio" id="complaint" name="feedback_type" value="complaint" required>
+      <label for="complaint">Complaint</label>
+      <input type="radio" id="suggestion" name="feedback_type" value="suggestion" required>
+      <label for="suggestion">Suggestion</label><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </footer>
+</body>
+</html>
