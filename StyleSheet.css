@@ -1,0 +1,38 @@
+/* Add your styles here */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #064d17;
+    color: #dbcd50;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #064d17;
+    color: #dbcd50;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
